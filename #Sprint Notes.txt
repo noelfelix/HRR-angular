@@ -1,0 +1,43 @@
+#Sprint Notes:
+
+Setup:
+  Look over server.js to get a feel for Express 4.
+  run:
+    npm install -g gulp karma karma-cli nodemon
+    npm install
+    bower install
+    mongod (in it's own terminal tab)
+    gulp
+    gulp karma (to run tests)
+
+
+Requirements:
+  Build out LinksController and template.
+
+  Build out ShortenController and template.
+
+  Build out Links service.
+  
+  Add routing for both Links and Shorten templates.
+  
+  Pass tests for the above.
+  
+  Enable navigation between the links view and the shorten view.
+  Default to links view if unknown route is attempted.
+  
+  Validate the shorten links form before it submits to server.
+  Validate the sign up/sign in form before it submits to server.
+  Show errors when forms are invalid.
+
+  Display the links on the listing page sorted by visit count.
+  Add a live-search box that displays only the links that match the search criteria.
+
+
+
+Tips:
+  The point of a controller is to expose data to our view via $scope, and add functions to that $scope to define view behaviors.
+
+  When you use a controller to manipulate the DOM, you write directives.
+
+  Angular's router injects a template to ng-view when a new route is hit, and loads a new controller if you want.
+
