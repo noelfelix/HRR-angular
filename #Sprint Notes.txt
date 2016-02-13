@@ -12,26 +12,20 @@ Setup:
 
 
 Requirements:
-  Build out LinksController and template.
-
-  Build out ShortenController and template.
-
-  Build out Links service.
   
-  Add routing for both Links and Shorten templates.
-  
-  Pass tests for the above.
   
   Enable navigation between the links view and the shorten view.
-  Default to links view if unknown route is attempted.
   
   Validate the shorten links form before it submits to server.
+
   Validate the sign up/sign in form before it submits to server.
+  
   Show errors when forms are invalid.
 
   Display the links on the listing page sorted by visit count.
-  Add a live-search box that displays only the links that match the search criteria.
 
+  Add a live-search box that displays only the links that match the search criteria.
+    use 'show' + filter
 
 
 Tips:
